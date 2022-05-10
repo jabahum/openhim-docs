@@ -121,7 +121,7 @@ There are three types of mediators:
   These services are invoked whenever there is a need to orchestrate or adapt a certain transaction. If they are not needed the OpenHIM core component will call the domain service directly. Orchestrators may use other adapters to send messages to other services.
   As the architecture is designed to evolve as the environment changes, designing these orchestrators and adapters as independent services allows for additional logic or business processes to be added as the need arises. Mediators are often implementation specific so they will change to meet the specific needs and business processes of the system. A mediator library is available so that existing mediators can be re-used or adapted as needed. Both the orchestrator and adapter services are also expected to log and audit messages that they send out to the domain services. These services are implemented as mediators within the OpenHIM.
 
-<div className="funderImages">
+<!-- <div className="funderImages">
 
   ## Funders
 
@@ -143,4 +143,4 @@ There are three types of mediators:
   <a href="http://hisp.org" title="HISP" target="_blank"><img alt="HISP" src={useBaseUrl('img/funders/hisp.png')} /></a>
   <a href="http://ohie.org" title="OpenHIE" target="_blank"><img alt="OpenHIE" src={useBaseUrl('img/funders/openhie-logo.png')} /></a>
   <a href="http://www.ecgroupinc.com/index.htm" title="eCGroup" target="_blank">eCGroup</a>
-</div>
+</div> -->

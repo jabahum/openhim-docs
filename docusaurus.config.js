@@ -45,7 +45,7 @@ module.exports = {
         {to: 'docs/introduction/about', label: 'Docs', position: 'left'},
         {to: 'docs/api/introduction/welcome', label: 'API', position: 'left'},
         {to: 'mediator-library', label: 'Mediator Library', position: 'left'},
-        {to: 'help', label: 'Help', position: 'left'},
+        // {to: 'help', label: 'Help', position: 'left'},
         {
           href: 'https://github.com/jembi/openhim-core-js',
           label: 'GitHub',
@@ -76,28 +76,28 @@ module.exports = {
               label: 'Getting Involved',
               to: 'docs/introduction/community',
             },
-            {
-              label: 'YouTube Tutorials',
-              href: 'https://www.youtube.com/channel/UCz3UpAGDJbKG7KkorgMGfEA',
-            }
+            // {
+            //   label: 'YouTube Tutorials',
+            //   href: 'https://www.youtube.com/channel/UCz3UpAGDJbKG7KkorgMGfEA',
+            // }
           ],
         },
-        {
-          title: 'Playgrounds',
-          items: [
-            {
-              label: 'OpenHIM 5.2-latest Sandbox',
-              href: 'https://sandbox.openhim.org',
-            }
-          ],
-        },
+        // {
+        //   title: 'Playgrounds',
+        //   items: [
+        //     {
+        //       label: 'OpenHIM 5.2-latest Sandbox',
+        //       href: 'https://sandbox.openhim.org',
+        //     }
+        //   ],
+        // },
       ],
       logo: {
-        alt: 'Jembi health Systems Logo',
-        src: 'img/jembi-logo.png',
+        alt: 'MoH Uganda',
+        // src: 'img/logo.png',
         href: 'https://jembi.org',
       },
-      copyright: `Copyright © ${new Date().getFullYear()} Jembi Health Systems NPC`,
+      copyright: `Copyright © ${new Date().getFullYear()} MoH Uganda`,
     },
     googleAnalytics: {
       trackingID: 'UA-60988221-1',
