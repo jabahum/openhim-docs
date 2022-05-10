@@ -10,10 +10,10 @@ const versions = require('./versions.json');
 module.exports = {
   title: 'OpenHIM',
   tagline: 'Simplifying Interoperability',
-  url: 'https://jembi.github.io',
+  url: '',
   baseUrl: '/',
   favicon: 'img/openhim_badge.png',
-  organizationName: 'jembi', // Usually your GitHub org/user name.
+  organizationName: 'MoH Uganda', // Usually your GitHub org/user name.
   projectName: 'openhim-docs', // Usually your repo name.
   themeConfig: {
     colorMode: {
